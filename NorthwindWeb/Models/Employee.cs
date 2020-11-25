@@ -32,6 +32,7 @@ namespace NorthwindWeb.Models
         public string Notes { get; set; }
         public int? ReportsTo { get; set; }
         public string PhotoPath { get; set; }
+        public string MiddleName { get; set; }
 
         public virtual Employee ReportsToNavigation { get; set; }
         public virtual ICollection<EmployeeTerritory> EmployeeTerritories { get; set; }

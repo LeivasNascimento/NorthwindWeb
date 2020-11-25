@@ -1,0 +1,8 @@
+Data Source=(LocalDb)\MSSQLLocalDB;Initial Catalog=Northwind;Integrated Security=True
+
+Scaffold-DbContext "Data Source=(LocalDb)\MSSQLLocalDB;Initial Catalog=Northwind;Integrated Security=True" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models -Force
+- na parte da conection string tem que está igual a conexão especificada no banco de dados, propriedade, 
+conection string
+- mais detalhes: Gerenciador de Servidores > Conexão de Dados > clica com direito
+na base de dados > proriedades > conection string > copiar > colar essa conection
+string no comando Scaffold especificado acima

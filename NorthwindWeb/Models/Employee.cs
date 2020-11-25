@@ -33,6 +33,7 @@ namespace NorthwindWeb.Models
         public int? ReportsTo { get; set; }
         public string PhotoPath { get; set; }
         public string MiddleName { get; set; }
+        public string Genre { get; set; }
 
         public virtual Employee ReportsToNavigation { get; set; }
         public virtual ICollection<EmployeeTerritory> EmployeeTerritories { get; set; }

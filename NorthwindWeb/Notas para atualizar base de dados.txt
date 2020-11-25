@@ -6,3 +6,5 @@ conection string
 - mais detalhes: Gerenciador de Servidores > Conexão de Dados > clica com direito
 na base de dados > proriedades > conection string > copiar > colar essa conection
 string no comando Scaffold especificado acima
+- observar que é para copiar do propriedades do banco de dados (pq pegando do appsettings fica com duas
+barras e dá erro)

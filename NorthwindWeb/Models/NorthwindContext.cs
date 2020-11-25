@@ -249,6 +249,10 @@ namespace NorthwindWeb.Models
                     .IsRequired()
                     .HasMaxLength(10);
 
+                entity.Property(e => e.Genre)
+                    .HasMaxLength(1)
+                    .IsFixedLength(true);
+
                 entity.Property(e => e.HireDate).HasColumnType("datetime");
 
                 entity.Property(e => e.HomePhone).HasMaxLength(24);
